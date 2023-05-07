@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+
+eval (keychain --eval .ssh/id_ed25519)
 . ~/.config/fish/path.fish
 . ~/.config/fish/functions/functions.fish
 
